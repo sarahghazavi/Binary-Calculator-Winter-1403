@@ -1,4 +1,4 @@
-# Binary-Calculator
+# Arduino Binary Calculator with Python GUI
 
 This project consists of an **Arduino-based binary calculator simulation** and a **Python GUI application**. The calculator is designed to run on the Wokwi simulator, and the Python application provides a graphical interface for interacting with it.
 
@@ -24,7 +24,7 @@ BINARYCALCULATOR/
 
 ## 🚀 Getting Started
 
-### 1️⃣ Running the Arduino Simulator
+### Running the Arduino Simulator
 To run the **binary calculator** in the Wokwi simulator:
 
 1. Install the **Wokwi Extension** in Visual Studio Code.
@@ -32,7 +32,7 @@ To run the **binary calculator** in the Wokwi simulator:
 3. Press `Ctrl + Shift + P` and search for **"Wokwi"**.
 4. Click on **"Wokwi: Start Simulator"**.
 
-### 2️⃣ Running the Python GUI Application
+### Running the Python GUI Application
 To run the **Python-based GUI**:
 
 1. Ensure you have Python installed on your system.
@@ -65,9 +65,7 @@ To run the **Python-based GUI**:
 
 ## 🖥️ How It Works
 
-- The **Arduino** simulation receives inputs from a keypad and displays the results on an **LCD screen**.
-- The **Python GUI** allows users to interact with the calculator using buttons.
-- The Python application communicates with the Arduino simulator using **serial communication**.
+The Arduino firmware processes keypad input and performs binary arithmetic operations, displaying results on an LCD. The Python GUI communicates with the Arduino via serial protocol, enabling remote interaction and visualization of the calculator system.
 
 ---
 
