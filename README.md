@@ -1,24 +1,60 @@
-# Arduino Binary Calculator with Python GUI
+# Arduino Binary Calculator System
 
-This project consists of an **Arduino-based binary calculator simulation** and a **Python GUI application**. The calculator is designed to run on the Wokwi simulator, and the Python application provides a graphical interface for interacting with it.
+**Arduino-Based Binary Calculator with Python GUI Integration**
 
-## 📂 Project Structure
+> Developed by *Sara Ghazavi*
+> Sharif University of Technology – Winter 1403
 
-```
-BINARYCALCULATOR/
-│── .vscode/
-│── sketch/
-│   ├── sketch.ino      # Arduino simulation code
-│── app.py              # Python GUI application
-│── calculator.png      # Icon for the application
-│── diagram.json        # Wiring diagram
-│── libraries.txt       # Required libraries
-│── README.md           # Documentation
-│── sketch.ino.elf      # Compiled ELF file
-│── sketch.ino.hex      # Compiled HEX file
-│── wokwi-project.txt   # Wokwi project details
-│── wokwi.toml          # Wokwi configuration
-```
+---
+
+## 📝 Description
+
+This project was developed as a course assignment for *Computer Language and Structure* at Sharif University of Technology. It implements an **Arduino-based binary calculator system** integrated with a Python GUI application through serial communication.
+
+The system simulates a microcontroller-based computational unit with keypad input and LCD output. The firmware runs in the Wokwi simulation environment, while a Python desktop application communicates with the Arduino via a serial protocol to provide a graphical interface for user interaction.
+
+The project demonstrates fundamental concepts of I/O interfacing, embedded control logic, and hardware-software integration. The design emphasizes modular firmware architecture and structured communication between embedded and host systems.
+
+---
+
+## 📁 Features
+
+### ✅ Embedded System (Arduino)
+
+* Keypad-based binary input system
+* LCD output display using I2C interface
+* Stack-based binary arithmetic operations
+* Structured control logic for parsing and execution
+* Designed for Wokwi simulation environment
+
+### ✅ Python GUI Application
+
+* Graphical user interface built with Tkinter
+* Serial communication with Arduino firmware
+* Real-time interaction and result visualization
+* External control of the embedded system
+
+---
+
+## 🛠️ Technical Stack
+
+* **Microcontroller Platform**: Arduino
+* **Language (Embedded)**: C++ (Arduino)
+* **Language (Desktop App)**: Python
+* **GUI Framework**: Tkinter
+* **Communication**: Serial Protocol (RFC2217)
+* **Simulation Environment**: Wokwi
+* **I/O Components**: Keypad, LCD (I2C)
+
+---
+
+## 📘 Educational Objectives
+
+* Understand microcontroller-based system design
+* Implement I/O interfacing (keypad and LCD)
+* Design structured, state-driven control logic in embedded firmware
+* Implement serial communication between the host and the device
+* Explore hardware-software co-design principles
 
 ---
 
@@ -73,3 +109,11 @@ The Arduino firmware processes keypad input and performs binary arithmetic opera
 
 - Ensure that **Wokwi is running** before launching the Python GUI.
 - The **serial communication** is set up to work with `rfc2217://localhost:4000`, so ensure it's properly configured.
+
+---
+
+## 👩‍💻 Author
+
+**Sara Ghazavi**
+Sharif University of Technology
+Course: Computer Language and Structure – Winter 1403
