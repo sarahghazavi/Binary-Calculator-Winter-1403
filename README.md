@@ -115,5 +115,7 @@ The Arduino firmware processes keypad input and performs binary arithmetic opera
 ## 👩‍💻 Author
 
 **Sara Ghazavi**
+
 Sharif University of Technology
+
 Course: Computer Language and Structure – Winter 1403
